@@ -10,7 +10,8 @@ import {
 import { prettyObject } from "@/app/utils/format";
 
 export class ChatGPTApi implements LLMApi {
-  public ChatPath = "v1/chat/completions";
+  // public ChatPath = "v1/chat/completions";
+  public ChatPath = "v1/completions";  //修改保存的信息
   public UsagePath = "dashboard/billing/usage";
   public SubsPath = "dashboard/billing/subscription";
 
